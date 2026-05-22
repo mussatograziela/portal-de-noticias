@@ -1,4 +1,17 @@
 #featured {
+  .card {
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(
+        180deg,
+        transparent,
+        #020617 100%,
+      );
+    }
+  }
   img {
     height: 100%;
     object-fit: cover;
