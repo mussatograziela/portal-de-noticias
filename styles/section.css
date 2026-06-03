@@ -10,13 +10,15 @@ section header {
 
     span {
       background-image: url(../assets/icons/ArrowRight.svg);
-      text-decoration: none;
+      background-repeat: no-repeat;
       width: 16px;
       height: 16px;
     }
 
     &:hover span {
       background-image: url(../assets/icons/ArrowRighthover.svg);
+      width: 16px;
+      height: 16px;
     }
   }
 }
